@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 14 16:35:12 2019
+
+@author: HIMANSHU SINGH
+"""
+
+faculty = """[{
+		"First Name": "Yogendra",
+		"Last Name": "Singh",
+		"Photo": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiru8__7JriAhXOe30KHQjhCKAQjRx6BAgBEAU&url=https%3A%2F%2Flite.pubg.com%2Fzh-hant%2F&psig=AOvVaw1zSrtLmpVtfYYUI_WrOxxx&ust=1557917471646074",
+		"Depsrtment": "IT",
+		"Research Areas": "Coding",
+		"Contact Detail": {
+			"Phone Number": "8764645984",
+			"Email Id": "idontknow@gmail.com"
+		}
+	},
+	{
+		"First Name": "Sylvester",
+		"Last Name": "Fenjnkjkjk",
+		"Photo": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiru8__7JriAhXOe30KHQjhCKAQjRx6BAgBEAU&url=https%3A%2F%2Flite.pubg.com%2Fzh-hant%2F&psig=AOvVaw1zSrtLmpVtfYYUI_WrOxxx&ust=1557917471646074",
+		"Depsrtment": "IT",
+		"Research Areas": "Coding",
+		"Contact Detail": {
+			"Phone Number": "69864443654",
+			"Email Id": "patanhi@gmail.com"
+		}
+	}
+]"""

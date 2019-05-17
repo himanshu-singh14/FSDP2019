@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 14 16:11:41 2019
+
+@author: HIMANSHU SINGH
+"""
+
+"""
+
+Code Challenge
+  Name: 
+    Student and Faculty JSON
+  Filename: 
+    student.json
+    faculty.json
+  Problem Statement:
+    Create a student and Faculty JSON object and get it verified using jsonlint.com
+    Write a JSON for faculty profile. 
+    The JSON should have profile of minimum 2 faculty members. 
+    The profile for each faculty should include below information atleast:
+
+        First Name
+        Last Name
+        Photo (Just a random url)
+        Department 
+        Research Areas (can be multiple)
+        Contact Details (should include phone number and email id and can have multiple )
+   Hint:
+       www.jsonlint.com
+       
+"""
+
+student = """[{
+ "First Name" : "Himanshu",
+ "Last Name" : "Singh",
+ "Photo" : "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiru8__7JriAhXOe30KHQjhCKAQjRx6BAgBEAU&url=https%3A%2F%2Flite.pubg.com%2Fzh-hant%2F&psig=AOvVaw1zSrtLmpVtfYYUI_WrOxxx&ust=1557917471646074",
+ "Depsrtment" : "IT",
+ "Research Areas" : "ML",
+ "Contact Detail" : {
+         "Phone Number" : "9984127569",
+         "Email Id" : "himanshusingh@gmail.com"}
+ },
+ {
+  "First Name" : "Priyanshu",
+ "Last Name" : "Singh",
+ "Photo" : "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiru8__7JriAhXOe30KHQjhCKAQjRx6BAgBEAU&url=https%3A%2F%2Flite.pubg.com%2Fzh-hant%2F&psig=AOvVaw1zSrtLmpVtfYYUI_WrOxxx&ust=1557917471646074",
+ "Depsrtment" : "BSC",
+ "Research Areas" : "MATHS",
+ "Contact Detail" : {
+         "Phone Number" : "7619899169",
+         "Email Id" : "priyanshusingh@gmail.com",
+  }}]"""
+ 
+
+
+
+
+
+

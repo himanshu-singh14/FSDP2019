@@ -317,7 +317,7 @@ import requests
 
 Host = "http://httpbin.org/post"
 
-data = {"firstname":"dev","language":"English"}
+data = {"firstname":"Himanshu","language":"English"}
 
 headers = {"Content-Type":"application/json","Content-Length":len(data),"data":json.dumps(data)}
 
@@ -329,7 +329,7 @@ print ( post_method().text )
 
 
 def get_method():
-    response = requests.get("http://httpbin.org/get?firstname=Dev&language=English")
+    response = requests.get("http://httpbin.org/get?firstname=Himanshu&language=English")
     return response
 
 print (get_method().text)

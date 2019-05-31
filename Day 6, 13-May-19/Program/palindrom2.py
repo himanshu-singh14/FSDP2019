@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 """
 Created on Mon May 13 17:17:04 2019
@@ -27,18 +28,17 @@ Code Challenge
     True
 """
 
-s = [int(i) for i in input().split(' ')]
-st = [str(num) for num in s]
+s = [i for i in input().split(' ')]
 tf = []
-for word in st:
-    if word == word[-1]:
+for word in s:
+    if word == word[::-1]:
         tf.append(True)
     else:
         tf.append(False)
 print(any(tf))
 
 
-
+  
 
 
 

@@ -95,14 +95,22 @@ for item in z:
 item = dataset.groupby("Transaction")["Item"].unique()
 item_list = [x.tolist() for x in item]
 
-kk = 0
+
+for pp in name:
+    kk = 0
+    for ll in item_list:
+        if "Sandwich" in ll and pp in ll:
+            kk += 1  
+    print(str(kk/680)+" --> Confidence of Sandwich -> "+pp)
+
+   
+kkk = 0
 for ll in item_list:
-    if "Sandwich" in ll and "Coke" in ll:
-        kk += 1
-        
- 
-       
-184/771
+    if "Coke" in ll:
+        kkk+=1
+kkk/9465
+
+(852*9465)/(4528*3097)
 transactions = []
 
 for i in range(0, 7501):
@@ -111,13 +119,13 @@ for i in range(0, 7501):
 
 # Training Apriori on the dataset
 
-rules = apriori(item, min_support = 0.0025, min_confidence = 0.2, min_lift = 3)
+rules = apriori(item_list, min_support = 0.0025, min_confidence = 0.2, min_lift = 3)
 
 # Visualising the results
 results = list(rules)
 
 
-
+49/184
 
 for item in results:
 
